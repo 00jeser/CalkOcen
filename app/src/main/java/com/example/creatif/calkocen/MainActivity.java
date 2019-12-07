@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             staticLabelsFormatter.setVerticalLabels(new String[] {"", "", "2", "3", "4", "5"});
             graph.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
             ((TextView) this.findViewById(R.id.textView)).setText((s / txt.length()) + "");
-            series.setColor(Color.argb(255, 255, 0, 0));
+            series.setColor(Color.argb(125, 0, 0, 255));
             series.setThickness(15);
             graph.addSeries(series);
         } catch (Exception ex) {
